@@ -1,0 +1,17 @@
+# Build
+dist/
+.astro/
+
+# Dépendances
+node_modules/
+
+# Environnement — jamais de secrets dans le repo
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# Logs
+npm-debug.log*

@@ -1,0 +1,10 @@
+-- ============================================================
+-- seed.sql — Données initiales de l'annuaire local-place.fr
+-- Rempli en Phase 3 :
+--   1. Référentiel des départements France entière
+--      (actif = true uniquement pour 75/77/78/91/92/93/94/95
+--       + limitrophes 60, 45, 27, 28, 89, 02, 10)
+--   2. Métier « couvreur » (actif = true)
+--   3. Fiches des clients réels LocalPlace
+--   4. Avis migrés du WordPress (avec leurs dates d'origine)
+-- ============================================================

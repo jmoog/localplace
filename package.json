@@ -1,0 +1,26 @@
+{
+  "name": "local-place-annuaire",
+  "version": "0.1.0",
+  "description": "Annuaire SEO d'artisans couvreurs — local-place.fr",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/node": "^10.1.4",
+    "astro": "^6.3.7",
+    "postgres": "^3.4.9"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "typescript": "^6.0.3"
+  }
+}
