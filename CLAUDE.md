@@ -24,7 +24,7 @@ modèle fermé avec les clients LocalPlace, conçu pour s'ouvrir progressivement
 
 | Axe | Lancement | Ouverture future | Mécanisme |
 |---|---|---|---|
-| Métier | Couvreur uniquement | Paysagistes, etc. | table `metiers`, flag `actif` |
+| Métier | Couvreur + vente de pneus d'occasion (décision 2026-06-11, client Docteur des Pneus) | Paysagistes, etc. | table `metiers`, flag `actif` |
 | Géographie | IDF (75/77/78/91/92/93/94/95) + limitrophes (60, 45, 27, 28, 89, 02, 10) | France | table `departements`, flag `actif` |
 | Comptes | Fermé : Joseph crée fiches et comptes | Inscription libre + revendication | `statut_revendication`, rôles users |
 | Monétisation | Gratuit / inclus contrat agence | Freemium + Stripe | tables `plans`, `abonnements` (dormantes) |
